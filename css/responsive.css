@@ -112,7 +112,7 @@
 
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     .main-burger-wrapper .mid {
         top: 20%;
     }
@@ -122,7 +122,19 @@
     }
 
 
+} */
+
+
+@media (max-width: 400px) and (min-width: 375px) {
+    .main-burger-wrapper .mid {
+        top: 25%; /* Adjust slightly lower */
+    }
+
+    .main-burger-wrapper .bottom {
+        top: 50%; /* Adjust slightly lower */
+    }
 }
+
 
 @media (max-width: 350px) {
     .main-burger-wrapper .mid {

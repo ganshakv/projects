@@ -89,7 +89,7 @@
 
     .left-col {
         order: 2;
-        margin-top: 40px;
+        margin-top: 0px;
     }
 
     .main-burger-wrapper {
@@ -126,7 +126,7 @@
 
 @media (max-width: 400px){
     .main-burger-wrapper .mid {
-        top: 25%; /* Adjust slightly lower */
+        top: 30% !important; /* Adjust slightly lower */
     }
 
     .main-burger-wrapper .bottom {
@@ -137,7 +137,7 @@
 
 @media only screen and (device-width: 390px) and (device-height: 844px) {
     .main-burger-wrapper .mid {
-        top: 18%;
+        top: 18% !important;
     }
 
     .main-burger-wrapper .bottom {

@@ -114,7 +114,19 @@
 
 @media (max-width: 400px) {
     .main-burger-wrapper .mid {
-        top: 25%;
+        top: 20%;
+    }
+
+    .main-burger-wrapper .bottom {
+        top: 50%;
+    }
+
+
+}
+
+@media (max-width: 350px) {
+    .main-burger-wrapper .mid {
+        top: 33%;
     }
 
     .main-burger-wrapper .bottom {

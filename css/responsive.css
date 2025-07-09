@@ -124,6 +124,16 @@
 
 } */
 
+@media (max-width: 400px){
+    .main-burger-wrapper .mid {
+        top: 25%; /* Adjust slightly lower */
+    }
+
+    .main-burger-wrapper .bottom {
+        top: 50%; /* Adjust slightly lower */
+    }
+}
+
 
 @media only screen and (device-width: 390px) and (device-height: 844px) {
     .main-burger-wrapper .mid {
@@ -136,15 +146,7 @@
 }
 
 
-@media (max-width: 400px){
-    .main-burger-wrapper .mid {
-        top: 25%; /* Adjust slightly lower */
-    }
 
-    .main-burger-wrapper .bottom {
-        top: 50%; /* Adjust slightly lower */
-    }
-}
 
 
 @media (max-width: 350px) {

@@ -137,7 +137,7 @@
 
 @media only screen and (device-width: 390px) and (device-height: 844px) {
     .main-burger-wrapper .mid {
-        top: 18% !important;
+        top: 18%;
     }
 
     .main-burger-wrapper .bottom {

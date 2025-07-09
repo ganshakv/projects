@@ -106,13 +106,13 @@
         flex-direction: column;
     }
 
-    .main-burger-wrapper .bottom {
+    /* .main-burger-wrapper .bottom {
         top: 72%;
     }
 
     .main-burger-wrapper .mid {
         top: 40%;
-    }
+    } */
 
     .img-container.moving {
         align-items: center;

@@ -125,9 +125,16 @@
 } */
 
 
-@media (max-width: 400px) and (min-width: 375px) {
+@media only screen and (device-width: 390px) and (device-height: 844px) {
     .main-burger-wrapper .mid {
-        top: 20%; /* Adjust slightly lower */
+        top: 18%;
+    }
+}
+
+
+@media (max-width: 400px){
+    .main-burger-wrapper .mid {
+        top: 25%; /* Adjust slightly lower */
     }
 
     .main-burger-wrapper .bottom {

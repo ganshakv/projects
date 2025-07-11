@@ -147,6 +147,17 @@
 
 
 
+@media (max-width: 400px) and (min-aspect-ratio: 390/844) {
+  .main-burger-wrapper .mid {
+    top: 31%;
+  }
+
+  .main-burger-wrapper .bottom {
+    top: 56%;
+  }
+}
+
+
 
 
 @media (max-width: 350px) {

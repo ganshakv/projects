@@ -147,7 +147,21 @@
 
 
 
-@media (max-width: 400px) and (min-aspect-ratio: 390/844) {
+@media only screen 
+  and (device-width: 390px) 
+  and (device-height: 844px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+    
+   .main-burger-wrapper .mid {
+        top: 18% ;
+    }
+
+    .main-burger-wrapper .bottom {
+        top: 55%;
+    }
+}
+
   .main-burger-wrapper .mid {
     top: 31%;
   }

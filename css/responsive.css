@@ -5,11 +5,11 @@
     }
 
     .main-burger-wrapper .mid {
-        top: 23%;
+        top: 37%;
     }
 
     .main-burger-wrapper .bottom {
-        top: 42%;
+        top: 70%;
     }
 }
 
@@ -54,7 +54,7 @@
 
     .detail-section {
         padding: 40px 0;
-        padding-top: 370px;
+        padding-top: 350px;
     }
 
     .detail-sec {
@@ -73,7 +73,15 @@
         padding: 60px 0;
     }
 
-
+.main-burger-wrapper {
+    width: 250px;
+}
+.burger-layer.mid {
+    top: 27%;
+}
+.burger-layer.bottom {
+    top: 50%;
+}
 
 }
 

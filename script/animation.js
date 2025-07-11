@@ -127,25 +127,6 @@ gsap.from(".right-col .para",{
 // right item animation ends
 
 
-
-ScrollTrigger.matchMedia({
-  "(min-width: 1024px) and (max-width: 1200px)": function () {
-var tl=gsap.timeline({
-    scrollTrigger:{
-        trigger:".detail-sec",
-        scroller: "body",
-            start: "top 30%",
-            end: "top 60%",
-            scrub: 2,
-    }
-})
-tl.to(".moving .top",{ top:"115%",left:"100%",scale:1},0)
-tl.to(".moving .mid",{ top:"130%",left:"100%",scale:1},0)
-tl.to(".moving .bottom",{ top:"138%",left:"100%",scale:1},0)
-
-  }
-})
-
 ScrollTrigger.matchMedia({
   "(min-width: 1440px)": function () {
 var tl=gsap.timeline({
@@ -167,7 +148,72 @@ tl.to(".moving .bottom",{ top:"195%",left:"160%"},0)
 
 
 ScrollTrigger.matchMedia({
-  "(min-width: 320px) and (max-width: 986px)": function () {
+  "(min-width: 1800px)": function () {
+var tl=gsap.timeline({
+    scrollTrigger:{
+        trigger:".detail-sec",
+        scroller: "body",
+            start: "top 30%",
+            end: "top 60%",
+            scrub: 2,
+    }
+})
+tl.to(".moving .top",{ top:"200%",left:"160%"},0)
+tl.to(".moving .mid",{ top:"220%",left:"160%"},0)
+tl.to(".moving .bottom",{ top:"238%",left:"160%"},0)
+
+  }
+
+})
+
+
+
+
+
+
+ScrollTrigger.matchMedia({
+  "(min-width: 1024px) and (max-width: 1200px)": function () {
+var tl=gsap.timeline({
+    scrollTrigger:{
+        trigger:".detail-sec",
+        scroller: "body",
+            start: "top 30%",
+            end: "top 60%",
+            scrub: 2,
+    }
+})
+tl.to(".moving .top",{ top:"150%",left:"125%",scale:1},0)
+tl.to(".moving .mid",{ top:"170%",left:"125%",scale:1},0)
+tl.to(".moving .bottom",{ top:"185%",left:"125%",scale:1},0)
+
+  }
+})
+
+
+
+
+ScrollTrigger.matchMedia({
+  "(min-width: 480px) and (max-width: 768px)": function () {
+var tl=gsap.timeline({
+    scrollTrigger:{
+        trigger:".detail-sec",
+        scroller: "body",
+            start: "top 50%",
+            end: "top 50%",
+            scrub: 2,
+    }
+})
+tl.to(".moving .top",{ y: "450px", scale: 1 }, 0)
+tl.to(".moving .mid",{ y: "450px", scale: 1 }, 0)
+tl.to(".moving .bottom",{ y: "450px", scale: 1 }, 0)
+
+
+  }
+})
+
+
+ScrollTrigger.matchMedia({
+  "(min-width: 320px) and (max-width: 480px)": function () {
 var tl=gsap.timeline({
     scrollTrigger:{
         trigger:".detail-sec",

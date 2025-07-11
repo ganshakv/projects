@@ -268,7 +268,8 @@ body:has(.navbar.scrolled) .img-container.moving{
 
 
 .main-burger-wrapper {
-  width: 30%;
+ width: 350px; /* adjust as needed */
+  height: 450px; /* enough height to hold all 3 layers */
   position: relative;
 }
 
@@ -278,7 +279,32 @@ body:has(.navbar.scrolled) .img-container.moving{
   position: absolute;
 }
 
-.main-burger-wrapper .top {
+
+.burger-layer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: auto;
+}
+
+/* Set layer spacing using percentages instead of fixed px */
+.burger-layer.top {
+  top: 0%;
+  z-index: 3;
+}
+
+.burger-layer.mid {
+  top: 38%;
+  z-index: 2;
+}
+
+.burger-layer.bottom {
+  top: 70%;
+  z-index: 1;
+}
+
+/* .main-burger-wrapper .top {
   top: 0;
 }
 
@@ -289,7 +315,7 @@ body:has(.navbar.scrolled) .img-container.moving{
 
 .main-burger-wrapper .bottom {
   top: 54%;
-}
+} */
 
 .left-col,.right-col{
   display: flex;

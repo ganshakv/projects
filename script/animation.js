@@ -157,9 +157,9 @@ var tl=gsap.timeline({
             scrub: 2,
     }
 })
-tl.to(".moving .top",{ top:"117%",left:"100%",scale:0.8},0)
-tl.to(".moving .mid",{ top:"130%",left:"100%",scale:0.8},0)
-tl.to(".moving .bottom",{ top:"138%",left:"100%",scale:0.8},0)
+tl.to(".moving .top",{ top:"160%",left:"160%"},0)
+tl.to(".moving .mid",{ top:"180%",left:"160%"},0)
+tl.to(".moving .bottom",{ top:"195%",left:"160%"},0)
 
   }
 

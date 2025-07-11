@@ -164,3 +164,22 @@ tl.to(".moving .bottom",{ top:"138%",left:"100%",scale:0.8},0)
   }
 
 })
+
+
+ScrollTrigger.matchMedia({
+  "(min-width: 320px) and (max-width: 986px)": function () {
+var tl=gsap.timeline({
+    scrollTrigger:{
+        trigger:".detail-sec",
+        scroller: "body",
+            start: "top 50%",
+            end: "top 50%",
+            scrub: 2,
+    }
+})
+tl.to(".moving .top",{ top:"1150px",left:"0",scale:1},0)
+tl.to(".moving .mid",{ top:"1120px",left:"0",scale:1},0)
+tl.to(".moving .bottom",{ top:"1080px",left:"0",scale:1},0)
+
+  }
+})

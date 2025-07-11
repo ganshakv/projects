@@ -73,7 +73,7 @@
         padding: 60px 0;
     }
 
-    .main-burger-wrapper img {
+    /* .main-burger-wrapper img {
         position: relative;
     }
 
@@ -83,7 +83,24 @@
 
     .main-burger-wrapper .bottom {
         top: -70px;
-    }
+    } */
+
+
+    /* .main-burger-wrapper .top {
+    top: 0;
+    z-index: 3;
+}
+
+.main-burger-wrapper .mid {
+    top: 70px;
+    z-index: 2;
+}
+
+.main-burger-wrapper .bottom {
+    top: 140px;
+    z-index: 1;
+} */
+
 
 }
 

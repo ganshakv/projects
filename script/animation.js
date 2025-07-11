@@ -177,9 +177,10 @@ var tl=gsap.timeline({
             scrub: 2,
     }
 })
-tl.to(".moving .top",{ top:"1150px",left:"0",scale:1},0)
-tl.to(".moving .mid",{ top:"1120px",left:"0",scale:1},0)
-tl.to(".moving .bottom",{ top:"1080px",left:"0",scale:1},0)
+tl.to(".moving .top",{ y: "1150px", scale: 1 }, 0)
+tl.to(".moving .mid",{ y: "1150px", scale: 1 }, 0)
+tl.to(".moving .bottom",{ y: "1150px", scale: 1 }, 0)
+
 
   }
 })
